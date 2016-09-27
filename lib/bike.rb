@@ -1,7 +1,7 @@
 class Bike
 
 	def initialize
-@docked = false
+
 	end
 
 	def working?
@@ -9,10 +9,6 @@ class Bike
 	end
 
 def dock
-	@docked = true
 end
-
-
-
 
 end
