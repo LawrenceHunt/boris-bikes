@@ -20,7 +20,7 @@ DEFAULT_CONSTANT = 20
 	end
 
 	def full?
-		@bikes.count >= DEFAULT_CONSTANT
+		@bikes.count >= DEFAULT_CAPACITY
 	end
 
 	def empty?
