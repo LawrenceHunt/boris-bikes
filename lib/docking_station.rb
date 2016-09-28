@@ -3,6 +3,8 @@ require_relative 'bike'
 class DockingStation
 	attr_reader :bikes
 
+DEFAULT_CONSTANT = 20
+
 	def initialize
 		@bikes = []
 	end
@@ -18,7 +20,7 @@ class DockingStation
 	end
 
 	def full?
-		@bikes.count >= 20
+		@bikes.count >= DEFAULT_CONSTANT
 	end
 
 	def empty?
